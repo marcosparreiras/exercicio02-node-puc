@@ -28,8 +28,14 @@ A tabela `movies` no banco de dados segue o seguinte esquema:
 
 ```json
 {
-    "id": "a549c80f-72d1-4ad5-a394-89ce054af8d5",
-    "title": "O Poderoso Chefão",
-    "rating": 5,
-    "plot": "Michael Corleone, filho mais novo de Vito Corleone, tenta afastar-se dos negócios da família, mas é atraído de volta quando seu pai é ferido. Ele é envolvido em uma teia de traição, poder e vingança, assumindo o controle da família Corleone e tornando-se parte do submundo
+  "id": "a549c80f-72d1-4ad5-a394-89ce054af8d5",
+  "title": "O Poderoso Chefão",
+  "rating": 5,
+  "plot": "Michael Corleone, filho mais novo de Vito Corleone, tenta afastar-se dos negócios da família, mas é atraído de volta quando seu pai é ferido. Ele é envolvido em uma teia de traição, poder e vingança, assumindo o controle da família Corleone e tornando-se parte do submundo do crime.",
+  "genre": "crime"
+}
 ```
+
+## Deploy
+
+[API Link](https://puc-pos-node-ex-02.onrender.com)
