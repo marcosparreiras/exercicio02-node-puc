@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">18"
+  },
   "scripts": {
     "dev": "node --watch ./src/server.js",
     "start": "node ./src/server.js",
@@ -10,7 +13,7 @@
     "migrate": "knex migrate:latest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Marcos Parreira",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
